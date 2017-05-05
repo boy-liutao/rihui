@@ -1,0 +1,11 @@
+.fix-box {width: 52px; height: 186px; position: fixed; bottom: 40px; right: 20px; z-index: 1000}
+.fix-box .fix-item {width: 52px; height: 52px;margin-bottom: 10px}
+.fix-box .fix-top {background: url(../img/sprite.png) no-repeat; background-position: -10px -10px}
+.fix-box .fix-top:hover {background: url(../img/sprite.png) no-repeat; background-position: -10px -70px}
+.fix-box .fix-phone {background: url(../img/sprite.png) no-repeat; background-position: -70px -10px}
+.fix-box .fix-phone:hover {background: url(../img/sprite.png) no-repeat; background-position: -70px -70px}
+.fix-box .fix-email {background: url(../img/sprite.png) no-repeat; background-position: -190px -10px}
+.fix-box .fix-email:hover {background: url(../img/sprite.png) no-repeat; background-position: -190px -70px}
+
+.fix-box .phoneNumber {position: absolute; height: 50px; left: -170px; top: 62px; width: 160px; background: url(../img/sprite.png) no-repeat; background-position: -10px -130px; color: #5fb336; font-size: 14px; line-height: 50px; text-align: center; z-index: 10px; display: none;}
+.fix-box .emailNumber {position: absolute; height: 50px; left: -250px; top: 124px; width: 260px; background: url(../img/sprite.png) no-repeat; background-position: -10px -190px; color: #5fb336; font-size: 14px; line-height: 50px; text-align: center; z-index: 10px; display: none;}

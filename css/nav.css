@@ -1,0 +1,33 @@
+.top {position: relative; z-index: 10000;}
+.nav { width: 100%;background: rgba(0,0,0,0); position: absolute; top: 0;}
+.nav .nav-wrap {padding: 0 40px;}
+.nav .nav-wrap nav {width: 1140px; margin: 0 auto;}
+.nav .nav-wrap .logo {width: 250px; height: 60px;}
+.nav .nav-wrap .logo img {width: 100%}
+.nav-list {width: 652px; height: 69px; float: right; padding-top: 10px; margin-top: -60px;}
+.nav-list li {float: left; width: 104px; height: 58px; margin-right: 10px; font-size: 16px; text-align: center; line-height: 58px;}
+.nav-list a { color: white; text-decoration: none;}
+.nav-list .active {color: #5fb336;}
+.nav-list a:hover {color: #5fb336;}
+.nav-list a li:hover {border-bottom: 1px solid #5fb336;}
+.nav-list li.active {color: #5fb336; border-bottom: 1px solid #5fb336;width: 72px; margin-left: 72px}
+
+/*关于我们*/
+.about-wrap {background: #1a1a1a}
+.show-about {width: 1216px; height: 330px; padding: 30px 40px 0; margin: 0 auto;}
+.show-about .show-left {height: 226px; width: 65.3333%; float: left;}
+.show-about .show-left h3 {color: white; font-size: 26px; line-height: 36px; margin-bottom: 24px; font-weight: normal;}
+.show-about .show-left h5 {color: white; font-size: 20px; line-height: 35px; margin-bottom: 24px; font-weight: normal;}
+.show-about .contact {width: 30.666%; margin-left: 4%; height: 238px; padding-left: 16px; box-sizing: border-box; float: left;}
+.show-about .contact .contact-title {font-size: 26px; color: #fff; line-height: 36px; margin-bottom: 24px}
+.show-about .contact .contact-item {padding: 0 20px; position: relative;}
+.show-about .contact .contact-item .item-logo {width: 50px; height: 50px;}
+.show-about .contact .contact-item .item-logo img {position: absolute; left: 30px; top: 5px;}
+.show-about .contact .contact-item .item-value {color: white; font-size: 16px; position: absolute; top: 0; left: 80px}
+.show-about .contact .contact-item1 {margin-bottom: 20px}
+.footer-wrap {background: #222; margin-top: -35px}
+.footer-b {padding: 40px 120px; height: 3px; margin: 0 auto; color: #656565;}
+.footer-b a {color: #656565;}
+
+/*默认选中*/
+.nav-list li.active2 {color: #5fb336; border-bottom: 1px solid #5fb336;}

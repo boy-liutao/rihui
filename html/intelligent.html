@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/direction.css">
+	<link rel="stylesheet" type="text/css" href="../css/fix.css">
+	<link rel="stylesheet" type="text/css" href="../css/nav.css">
+</head>
+<body>
+	<div class="direction">
+		<div class="top">
+			<div class="nav">
+				<div class="nav-wrap">
+					<nav>
+						<div class="logo"><a href="../index.html"><img src="../img/logo.png"></a></div>
+						<ul class="nav-list">
+							<a href="../index.html"><li>首页</li></a>
+							<a href="direction.html"><li class="active2">研发方向</li></a>
+					    	<a href="show.html"><li>项目展示</li></a>
+					    	<a href="../index.html#partner"><li>合作伙伴</li></a>
+					    	<a href="#contact"><li>关于我们</li></a>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="l-top">
+			<div class="l-submain">
+				<div class="l-sunmain-h">贴合需求，量身定做</div>
+			</div>
+		</div>
+		<div class="l-m cl">
+			<div class="l-middle">
+				<div class="l-middle-left">
+					<div class="l-middle-left-wrap">
+						<p>服务项目</p>
+					</div>
+					<ul class="l-middle-ul">
+						<li><span>></span><a href="direction.html">移动APP开发</a></li>
+						<li><span>></span><a href="O2O.html"> O2O平台开发</a></li>
+						<li>
+							<div class="l-middle-ul-wrap active">
+								<span>></span>
+								<a href="intelligent.html" class="active"> 物联网・智能家居开发</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="l-middle-right">
+					<div class="l-middle-right-top">
+						<div class="l-middle-right-wrap">
+							<span>您的位置：</span><a href="../index.html">首页</a>>
+							<strong style="color: #5fb336">
+								<span style="color:dimgrey" title="研发方向">研发方向</span>
+								>  物联网・智能家居开发
+							</strong>
+						</div>
+					</div>
+					<div class="l-middle-content">
+						<h2> 物联网・智能家居开发</h2>
+						<p style="text-indent: 2em">客户可实现各种Wi-Fi家电类设备、网关安防类设备、娱乐教育类设备的联网智能化，支持用户远程控制互动和企业后台管理监控，也可搭配商城、论坛、维保、影音内容等强运营功能，还可配合云端机器学习实现设备的智能化运行，真正为用户带来精彩智能生活、为企业带来全新增长机遇。;</p>
+						<p>
+							<img src="../img/home-iot.jpg">
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-wrap">
+				<div class="show-about">
+					<div class="show-left">
+						<h3>关于我们</h3>
+						<h5 class="show-txt">天津日辉信息技术有限公司位于天津高新园区内，专注提供互联网+平台下的物联网解决方案，O2O平台设计、政企信息化系统、大数据解决方案等服务，通过客户需求导向、开放式创新、卓越运营管理等战略的实施，全面打造公司的核心竞争力。 通过严格的质量标准和交付流程来保证客户的商业价值。</h5>
+					</div>
+					<div class="contact" id="contact">
+						<h3 class="contact-title">联系我们</h3>
+						<div class="contact-item contact-item1">
+							<div class="item-logo">
+								<img src="../img/phone2.png">
+							</div>
+							<span class="item-value">022-60783038<br>
+                                                15022620907（李先生）</span>
+						</div>
+						<div class="contact-item">
+							<div class="item-logo">
+								<img src="../img/email2.png">
+							</div>
+							<span class="item-value">business@rihuisoft.com</span>
+						</div>
+						<div class="contact-item">
+							<div class="item-logo">
+								<img src="../img/pos2.png" class="last">
+							</div>
+							<span class="item-value">天津市西青区 海泰创新基地B区2号楼1门301</span>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="footer-wrap">
+			<div class="footer-b">
+				<div>© 2015 - 2017 天津日辉信息科技有限公司 <a href="###">津ICP备15008230号-1</a></div>
+			</div>
+		</div>
+		<div class="fix-box">
+			<div class="fix-item fix-top"></div>
+			<div class="fix-item fix-phone"></div>
+			<div class="phoneNumber"><i>002-123456789</i></div>
+			<a href="#"><div class="fix-item fix-email"></div></a>
+			<div class="emailNumber"><i>123456789@163.com</i></div>
+		</div>
+	</div>
+</body>
+</html>
+<script src="../js/jquery-2.1.1.min.js"></script>
+<script src="../js/fixed.js"></script>
+<script type="text/javascript">
+$('.l-middle-ul li a').mouseenter(function(){
+	$(this).animate({marginLeft:6},300);
+}).mouseleave(function(){
+	$(this).animate({marginLeft:0},300);
+})
+</script>

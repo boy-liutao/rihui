@@ -1,0 +1,80 @@
+.container {min-width: 1260px;}
+/*轮播*/
+/*.banner {height: 400px; min-width: 1140px; background: lightblue}*/
+/*主要内容*/
+.content-h {height: 739px; padding: 60px 40px 20px;}
+.content-h .content-main {margin: 0 auto; width: 1140px; height: 739px; border: 1px solid white}
+/*所有的线*/
+.content-h .content-main .line {height: 16px; padding: 2px 0; margin: 35px 0; position: relative;}
+.content-h .content-main .line p {height: 1px; background: #E8E8E8;margin-top: 8px}
+.content-h .content-main .line div {width: 40px; height: 16px; background: white; line-height: 10px; text-align: center; position: absolute; top: 4px; left: 48%}
+.content-h .content-main .line strong {font-size: 20px; color: #E8E8E8}
+.content-h .content-main .case {height: 50px; margin-bottom: 24px; text-align: center;line-height: 50px; }
+.content-h .content-main .case1 {color: #5fb336; font-size: 40px;}
+.content-h .content-main .case2 {color: #717071; font-size: 18px;}
+.content-h .content-main .main {height: 272px; padding-top: 36px;}
+.content-h .content-main .main>div {width: 30.6666%; height: 272px; float: left; margin-left: 4%;}
+.content-h .content-main .main>div:first-child {margin-left: 0;}
+.content-h .content-main .main .main-content {width: 291px; margin: 0 auto; position: relative;}
+.content-h .content-main .main .main-content .main-content-top {height: 209px; border: 1px solid #5FB336; border-radius: 10px 10px 0 0;}
+.content-h .content-main .main .main-content .main-content-b {height: 61px; background: #5FB336; border-radius: 0 0 10px 10px; font-size: 24px; color: white; text-align: center;line-height: 61px}
+.content-h .content-main .main .main-content a {text-decoration: none;}
+.content-h .content-main .main .main-content .mark {padding: 12px;width: 267px; height: 187px; background: #000; opacity: 0; border-radius: 10px 10px 0 0; color: white; position: absolute; font-size: 16px; top: 0; left: 0; right: 0; bottom: 60px;}
+.content-h .content-main .main .main-content .mark:hover {opacity: 0.7}
+
+.content-h .content-main .content-footer {margin-top: 30px; height: 123px;}
+	.content-h .content-main .content-footer p {text-align: center; font-size: 24px; height:33px;color: #333; line-height: 33px;}
+.content-h .content-main .content-footer .more {width: 116px; height: 46px; margin: 40px auto; font-size: 24px; text-align: center; line-height: 46px;  border: 2px solid lightcoral; animation: move 1s linear infinite; border-radius: 5px;}
+.content-h .content-main .content-footer .more a {color:lightcoral; text-decoration: none;}
+@keyframes move {
+	0% {transform: scale(1);}
+	50% {transform: scale(1.15);}
+	100% {transform: scale(1);}
+}
+.content-m {height: 194px; min-width: 1140px; padding: 80px 40px; background: url(../img/bg3.jpg) no-repeat center center; background-size: cover}
+.content-m .partner-wrap {width: 1140px; margin:0 auto; height: 194px;}
+.content-m .partner-wrap h2 {line-height: 50px; height: 50px; text-align: center; color: #fff; font-size: 38px; margin-bottom: 24px}
+.content-m .partner-wrap .partner { }
+.content-m .partner-wrap .line {height: 20px; margin: 35px 0;}
+.content-m .partner-wrap .line .line-left,.content-m .partner-wrap .line .line-right{margin-top: 12.5px;float: left; display: inline-block; width: 545px; background: #fff; height: 1px}
+.content-m .partner-wrap .line .line-content {margin-left: 15px; margin-top: 2px; display: inline-block;}
+.content-m .partner-wrap .line .line-right {float: right;}
+.content-m .partner-wrap .partner .partner-mark {height: 50px; width: 1070px; margin: 0 auto;position: relative;}
+.content-m .partner-wrap .partner .partner-btnL{font-size: 40px; color: #606261; position: absolute; top: 0px; left: -85px; width: 50px; height: 50px;border: 1px solid rgba(0,0,0,0); line-height: 45px; text-align: center; border-radius: 50%; transition: all 0.5s;}
+.content-m .partner-wrap .partner .partner-btnR  {font-size: 40px; color: #606261; position: absolute; top: 0px; right: -95px; border: 1px solid rgba(0,0,0,0); width: 50px; height: 50px; line-height: 45px; text-align: center; border-radius: 50%;transition: all 0.5s;}
+.content-m .partner-wrap .partner .partner-btnL:hover {color: #5daf36; border: 1px solid #5daf36;}
+.content-m .partner-wrap .partner .partner-btnR:hover {color: #5daf36; border: 1px solid #5daf36;}
+.content-m .partner-wrap .partner .partner-w {width: 1140px;overflow: hidden;}
+.content-m .partner-wrap .partner .partnerP {width: 2280px;}
+.content-m .partner-wrap .partner .partner-main {border-radius: 5px; width: 170px; height: 50px; border: 2px solid rgba(0,0,0,0); margin-right: 50.2px; display: inline-block; transition: all 0.5s}
+.content-m .partner-wrap .partner .partner-main:hover { border: 2px solid #5daf36;}
+.content-m .partner-wrap .partner .partner-main img {display: block; width: 170px; height: 50px;}
+.content-b {height: 419px; min-width: 1140px;  padding: 0px 40px; background: #1a1a1a;}
+.content-b .content-b-wrap {max-width: 1140px; margin: 0 auto; height: 384px; padding-top: 35px; }
+.content-b .content-b-wrap div {float: left;}
+/*地图开始*/
+.content-b .content-b-wrap .map {width: 744.8px; height: 360px;border-radius: 10px; overflow: hidden;}
+.content-b .content-b-wrap .map img {width: 100%; }
+/*地图结束*/
+.content-b .content-b-wrap .contact {width: 30.666%; margin-left: 4%; height: 298px; padding-left: 16px; box-sizing: border-box;}
+.content-b .content-b-wrap .contact .contact-title {margin-bottom: 24px; font-size: 26px; color: #fff; line-height: 36px;}
+.content-b .content-b-wrap .contact .contact-item {padding: 0 20px; margin-bottom: 20px;}
+.content-b .content-b-wrap .contact .contact-item .item-logo {width: 50px; height: 50px; position: relative;}
+.content-b .content-b-wrap .contact .contact-item .item-logo img {position: absolute; left: 10px; top: 35%;}
+.content-b .content-b-wrap .contact .contact-item .item-logo .last {left: 15px;}
+.content-b .content-b-wrap .contact .contact-item .item-value {color: white; font-size: 16px; line-height: 26px; margin: 12px 0 0 65px; display: block;}
+/*底部*/
+.footer { background:  #1a1a1a; min-width: 1140px;}
+.footer .footer-h {height: 270px; padding-top: 30px;}
+.footer .footer-h .footer-t {padding: 10px 120px 40px; background: #1a1a1a; height: 136px;}
+.footer .footer-h .footer-t h3 {font-size: 26px; color: white; height: 36px; line-height: 36px; margin-bottom: 24px; font-weight: normal; min-width: 1140px;}
+.footer .footer-h .footer-t h6 {font-size: 18px; color: white; height: 78px; margin-bottom: 24px ; font-weight: normal;}
+.footer .footer-h .footer-wrap {background: #222;}
+.footer .footer-h .footer-b {padding: 30px 120px; height: 24px; margin: 0 auto; color: #656565;}
+.footer .footer-h .footer-b a {color: #656565;}
+
+
+
+
+
+
